@@ -60,9 +60,3 @@ FAQ
    different place in your website of the screen which is visible 
    on website.
 2. This module very useful for website contact and map. 
-
-
-MAINTAINERS
------------
-
-* Pinesh Kumar - https://www.drupal.org/u/pinesh-kumar
