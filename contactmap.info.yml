@@ -1,0 +1,6 @@
+name: Contact Map
+description: 'Contact Map module.'
+type: module
+package: Core
+configure: contactmap.form
+core: '8.x'
