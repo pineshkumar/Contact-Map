@@ -1,0 +1,5 @@
+contactmap.admin:
+  title: 'Contact Map'
+  description: 'Contact Map settings'
+  parent: system.admin_config_ui
+  route_name: contactmap.form
