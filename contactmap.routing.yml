@@ -1,0 +1,7 @@
+contactmap.form:
+  path: '/admin/config/user-interface/contact-map'
+  defaults:
+    _form: '\Drupal\contactmap\Form\ContactMapForm'
+    _title: 'Contact Map'
+  requirements:
+    _permission: 'administer site configuration'
