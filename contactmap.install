@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall functions for the contactmap module.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function contactmap_install() {
+  $defaultThemeName = \Drupal::config('system.theme')->get('default');
+  \Drupal::configFactory()->getEditable('contactmap.settings')
+    ->set('mapPhoneNumber', '0000000000')
+    ->set('mapAddressContact', 'Contact Map Address')
+    ->set('mapLatitude', '20.5937')
+    ->set('mapLongitude', '78.9629')
+    ->set('contactmapThemename', [$defaultThemeName])
+    ->save();
+}
